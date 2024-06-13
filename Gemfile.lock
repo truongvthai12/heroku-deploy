@@ -67,7 +67,7 @@ GEM
     date (3.3.4)
     erubi (1.12.0)
     execjs (2.9.1)
-    ffi (1.17.0-x86_64-darwin)
+    ffi (1.17.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
     i18n (1.14.5)
@@ -103,6 +103,8 @@ GEM
       net-protocol
     nio4r (2.7.3)
     nokogiri (1.13.10-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
     pg (0.21.0)
     public_suffix (5.0.5)
@@ -198,6 +200,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   byebug
